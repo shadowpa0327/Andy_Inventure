@@ -1,39 +1,3 @@
-/*#include <iostream>
-#include <algorithm>
-#include <vector>
-#include <set>
-#include <map>
-using namespace std;
-
-const int MOD = 1000033;
-map<int, int> table[MOD + 1];
-
-int main() {
-    int n, t;
-    cin >> n >> t;
-    vector<int> a(n);
-    for(int &i : a)
-        cin >> i;
-    sort(a.begin(), a.end());
-    for(int i = 0; i < n; i++)
-        table[(a[i] % MOD + MOD) % MOD][a[i]]++;
-    set<pair<int, int>> ans;
-    for(int i = 0; i < n; i++) {
-        if(--table[(a[i] % MOD + MOD) % MOD][a[i]] == 0)
-            table[(a[i] % MOD + MOD) % MOD].erase(a[i]);
-        for(int j = 0; j < i; j++) {
-            if(!table[((t - a[i] - a[j]) % MOD + MOD) % MOD].empty() && table[((t - a[i] - a[j]) % MOD + MOD) % MOD].find(t - a[i] - a[j]) != table[((t - a[i] - a[j]) % MOD + MOD) % MOD].end())
-                ans.insert(make_pair(a[i], a[j]));
-        }
-    }
-    if(ans.empty())
-        cout << "FeiDooDoo_Zuo_Wei_Men\n";
-    else
-        cout << ans.size() << '\n';
-}*/
-
-
-
 #include<bits/stdc++.h>
 using namespace std;
 
