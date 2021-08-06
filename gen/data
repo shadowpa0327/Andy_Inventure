@@ -1,0 +1,16 @@
+@subtask samples
+manual sample-1.in
+manual sample-2.in
+
+@subtask random
+gencode random 5000 1
+gencode random 5000 2
+gencode random 5000 3
+gencode random 5000 4
+gencode random 5000 5
+gencode random 5000 6
+
+@subtask unique_combination
+gencode all_one 2000
+gencode all_one 3000
+gencode all_one 1000

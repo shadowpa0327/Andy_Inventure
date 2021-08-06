@@ -1,0 +1,9 @@
+{
+  "name": "andy_inventure",
+  "title": "andy_inventure",
+  "memory_limit": 256,
+  "time_limit": 1.0,
+  "type": "Batch",
+  "has_grader" : false,
+  "description": "Find maximum number of Deevs to imprison"
+}
